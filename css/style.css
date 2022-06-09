@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 1%;
+  height: 25vh;
+  width: 100%;
+  background: url("/img/grass-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header > h1 {
+  color: white;
+}
+
+header span {
+  color: black;
+}
+
+nav {
+  background-color: darkgreen;
+}
+
+nav > ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  padding: 3%;
+}
+
+nav a:hover {
+  background-color: green;
+}
+
+main {
+  display: flex;
+  background-color: rgb(245,245,245);
+  padding-top: 2%;
+}
+
+footer {
+  background-color: darkgreen;
+  color: whitesmoke;
+  padding: 1%;
+  font-size: 14px;
+}
+
+footer a {
+  color: orange;
+  text-decoration: none;
+}
+
+.left-side, .right-side {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.left-side > article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.left-side h2 {
+  letter-spacing: 10px;
+  color: darkgreen;
+}
+
+.left-side ul {
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  list-style-type: square;
+  font-size: 14px;
+  color: darkgreen;
+}
+
+.left-side a {
+  text-decoration: none;
+  color: orange;
+  font-size: 14px;
+}
+
+.left-side figure {
+  border: 1px solid darkgreen;
+  padding: 4%;
+  width: fit-content;
+}
+
+.middle-side {
+  padding: 1%;
+  border-left: 2px dashed darkgreen;
+  border-right: 2px dashed darkgreen;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.middle-side h2 {
+  letter-spacing: 10px;
+  color: darkgreen;
+}
+
+.middle-side h2 > span {
+  color: darkred;
+}
+
+.middle-side blockquote {
+  color: olive;
+  padding-left: 8%;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.first-middle {
+  padding-top: 2%;
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+.first-middle p {
+  padding-bottom: 1%;
+  line-height: 1.5;
+}
+
+.first-middle > figure {
+  padding: 1%;
+  border: 1px solid darkgreen;
+  width: fit-content;
+  float: left;
+  margin-right: 1%;
+}
+
+.sub-section {
+  display: flex;
+  padding-left: 2%;
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+.sub-section > article {
+  width: 30%;
+}
+
+.sub-section h3 {
+  background-color: darkgreen;
+  color: whitesmoke;
+  padding: 2%;
+}
+
+.sub-section ul {
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 14px;
+  color: darkgreen;
+}
+
+.sub-section a {
+  text-decoration: none;
+  color: orange;
+}
+
+.bottom-middle {
+  padding-left: 2%;
+  line-height: 1.5;
+}
+
+.bottom-middle p {
+  padding-top: 1%;
+}
+
+.right-side h2 {
+  background-color: darkgreen;
+  color: whitesmoke;
+  padding: 1%;
+  font-size: 18px;
+  width: 100%;
+}
+
+.right-side > article {
+  background-color: beige;
+  padding: 3%;
+  width: 80%;
+}
+
+.right-side > article:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+}
+
+.right-side figure {
+  padding: 4%;
+  border: 1px solid darkgreen;
+  width: fit-content;
+}
+
+.right-side img {
+  width: 10vh;
+  height: 10vh;
+}
